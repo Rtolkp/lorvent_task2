@@ -1,0 +1,39 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+   background-color:#f26624 !important;
+   border-color:#f26624 !important;
+}
+
+/* not active */
+.nav-pills .nav-link:not(.active) {
+    background-color: #fff;
+    color:black;
+}
+
+/* active*/
+.nav-pills .nav-link {
+    background-color: #095a9c;
+    color: white;
+}
+
+.nav-link .active{
+   background-color:#095a9c;
+}
+
+.nav-pills   .nav-link:hover{
+    background-color:#095a9c;
+    color:white;
+}
+
+.popover {
+    background: grey;
+}
+
+.card-img-top {
+    width: 100%;
+    
+    object-fit: cover;
+}

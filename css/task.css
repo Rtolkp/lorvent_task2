@@ -1,0 +1,126 @@
+body {
+	
+}
+
+.tab {
+
+    border-width:5px;  
+    border-style:outset;
+    height:580px;
+    
+    background-color: #fcd512;
+
+}
+
+.header {
+	height:100px;
+    border-width:5px;  
+    border-style:outset;   
+    background-color: #fcd512;
+    margin:10px;
+}
+
+.name{
+	height:60px;
+    border-width:5px;  
+    border-style:outset;   
+    background-color: #fcd512;
+    margin:10px;
+    text-align: center;
+     font-weight:bold;
+     align-items:center;
+     justify-content: center;
+}
+
+.middle{
+	height:300px;
+    border-width:5px;  
+    border-style:outset;   
+    background-color: #fcd512;
+    margin:10px;
+}
+
+.left{
+	height:200px;
+	width:47%;
+    border-width:5px;  
+    border-style:outset;   
+    background-color: #fcd512;
+    margin:10px;
+    float:left;
+}
+.right{
+	height:200px;
+	width:47%;
+    
+    
+    margin:10px;
+    float:right;
+}
+
+.ra {
+	height:100px;
+	width:42%;
+    border-width:5px;  
+    border-style:outset;   
+    
+    margin:10px;
+    float:left;
+}
+.rb {
+	height:100px;
+	width:42%;
+    border-width:5px;  
+    border-style:outset;   
+    
+    margin:10px;
+    float:right;
+}
+
+
+.left .name input[type="text"] {
+	margin-top:10px;
+}
+
+.left .name input[type="password"] {
+	margin-top:10px;
+}
+
+
+.footer{
+	height:70px;
+    border-width:5px;  
+    border-style:outset;   
+    background-color: #fcd512;
+    margin:10px;
+}
+
+
+.fa {
+	float:left;
+	margin:10px;
+	width:100px;
+	 border-width:5px; 
+	 height:30px; 
+    border-style:outset;   
+    background-color: #fcd512;
+	
+}
+
+.fb {
+	float:right;
+	margin:10px;
+	width:100px;
+	height:30px;
+	 border-width:5px;  
+    border-style:outset;   
+    background-color: #fcd512;
+}
+
+.fa  button{
+	margin:5px;
+}
+
+.fb  button{
+	margin:5px;
+}
